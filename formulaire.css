@@ -1,0 +1,87 @@
+:root{
+    --color :  #1abc9c;
+}
+
+body {
+    height: 50%;
+    width: 50%;
+    padding-left: 20em;
+
+}
+
+#logo {
+    width: 8em;
+
+}
+
+#section {
+    display: flex;
+
+
+
+}
+
+.form {
+    border: 0.15em solid var(--color);
+    border-radius: 0.2em;
+
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+
+
+
+
+
+
+}
+
+#right {
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+select {
+    margin: 1em;
+    background-color: #e8eeef
+
+    ;
+    border: none;
+}
+
+#comment {
+    margin: 1em;
+    width: 20em;
+    height: 10em;
+    background-color: #e8eeef;
+}
+hr {
+    border-color: var(--color);
+    width: 80%;
+}
+
+input[type=button] {
+   
+    margin-left: 62px;
+    margin-bottom: 3px;
+    width: 80%;
+    height: 3em;
+    background-color: var(--color);
+    border: none;
+    
+
+
+}
+
